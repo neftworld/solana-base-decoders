@@ -1,6 +1,6 @@
-export {decodeMetadata} from "./Metadata"
+export {decodeMetadata, ParsedMetadata} from "./Metadata"
 
-export {decodeMint} from "./Mint"
+export {decodeMint, MintInfo} from "./Mint"
 
 export {decodeTokenAccount} from "./TokenAccount"
 

@@ -2,7 +2,7 @@
   "name": "@jeeh/solana-base-decoders",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": false,
   "license": "MIT",
   "dependencies": {
