@@ -1,6 +1,11 @@
 import { Account, AccountLayout, AccountState } from "@solana/spl-token";
 import {PublicKey} from "@solana/web3.js"
-// TODO: expose in spl package
+
+export const WRAPPED_SOL_MINT = new PublicKey(
+  "So11111111111111111111111111111111111111112"
+);
+
+
 export const decodeTokenAccount = (data: Buffer) => {
   const accountInfo = AccountLayout.decode(data);
   
