@@ -29,3 +29,6 @@ export { getMetadata } from "./pdas";
 export { convertAccountInfoToRawData } from "./convertAccountInfoToRawData";
 
 export { nodeToParsedAccount, IRawData } from "./nodeToParsedAccount";
+
+
+export {ParsedAccount, ParsedAccountBase} from "./ParsedAccount"
